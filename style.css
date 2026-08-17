@@ -1,5 +1,17 @@
 .navbar {
     background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-link {
+  color: #F5F5F5;
+  align-items: center;
+}
+
+.navbar .nav-link:hover {
+  color: #760400; /* un gris clarito al pasar el mouse, opcional */
 }
 
 #logo {
@@ -9,12 +21,26 @@
 }
 
 .icon {
-    width: 25px;
+    width: 30px;
     height: auto;
-    margin: 5px;
+    margin: 15px;
 }
 
 .banner {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.banner img {
   width: 100%;
   height: auto;
+}
+
+.titulo {
+  position: absolute;
+  top: 70%;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
 }
