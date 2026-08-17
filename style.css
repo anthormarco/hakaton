@@ -8,6 +8,7 @@
 .navbar .nav-link {
   color: #F5F5F5;
   align-items: center;
+  font-family: "Archivo", sans-serif;
 }
 
 .navbar .nav-link:hover {
@@ -15,7 +16,7 @@
 }
 
 #logo {
-    width: 130px;
+    width: 80px;
     height: auto;
     margin: 10%;
 }
@@ -28,19 +29,52 @@
 
 .banner {
   position: relative;
-  display: inline-block;
-  color: white;
+  display: block;
+  width: 100%;
+  color: #F5F5F5;
 }
 
 .banner img {
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 .titulo {
   position: absolute;
-  top: 70%;
+  top: 63%;
+  left: 5%;
   font-size: 40px;
   font-weight: bold;
   padding: 10px 20px;
+  font-family: "Archivo", sans-serif;
+}
+
+#subtitulo {
+    position: absolute;
+  top: 75%;
+  left: 5%;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-family: "Archivo", sans-serif;
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.grid-item {
+  background-color: #E6E6DC;
+  padding: 20px;
+}
+
+.subtemas {
+    text-align: center;
+    font-size: 30px;
+  font-weight: bold;
+  font-family: "Archivo", sans-serif;
+  margin: 3%;
+  text-transform: uppercase;
 }
