@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #000;
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+    margin: 10%;
+}
+
+.icon {
+    width: 25px;
+    height: auto;
+    margin: 5px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
