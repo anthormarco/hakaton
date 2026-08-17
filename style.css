@@ -65,6 +65,22 @@
   gap: 16px;
 }
 
+.grid-item {
+  padding: 20px;
+  position: relative; 
+}
+
+.item-text {
+  position: absolute;
+  bottom: 50px;
+  left: 25%;
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Archivo", sans-serif;
+  text-shadow: 1px 1px 3px #000
+}
+
 .grid-item img {
   max-width: 250px;
   height: 380px; 
@@ -72,6 +88,7 @@
   display: block;
   margin: 0 auto;
 }
+
 
 .subtemas {
     text-align: center;
