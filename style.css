@@ -1,3 +1,94 @@
+HEAD
+.footer {
+    background-color: #000;
+    padding: 35px 28px 18px;
+}
+
+
+
+.footer h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer h6 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.footer-text {
+    color: #cfcfcf;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.footer a {
+    color: #cfcfcf;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+
+.footer li {
+    margin-bottom: 9px;
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    display: block;
+}
+
+.footer-bottom {
+    border-top: 1px solid #686868;
+
+    margin-top: 20px;
+    padding-top: 16px;
+}
+
+.footer-bottom p {
+    color: #d0d0d0;
+    font-size: 16px;
+}
+
+.footer-bottom a {
+    font-size: 15px;
+}
+
+#imagen-logo {
+    width: 100px;
+}
+
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+
+    background-color: white;
+    color: #1f1f1f !important;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.social-icon i {
+    font-size: 15px;
+}
 .navbar {
     background-color: #000;
     position: sticky;
@@ -77,4 +168,5 @@
   font-family: "Archivo", sans-serif;
   margin: 3%;
   text-transform: uppercase;
+
 }
