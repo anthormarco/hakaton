@@ -23,49 +23,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#deportes" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link" href="#deportes">
               Deportes
             </a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="">Ropa</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Zapatos
-            </a>
-             <div class="dropdown-menu">
-
-             <button 
-               class="dropdown-item" data-category="Todos">
-               Todos
-             </button>
-
-             <button 
-               class="dropdown-item" data-category="Running">
-               Running
-             </button>
-
-             <button 
-               class="dropdown-item" data-category="Casual">
-               Casual 
-             </button>
-
-             <button 
-               class="dropdown-item" data-category="training">
-               Training
-             </button>
-
-             <button 
-               class="dropdown-item" data-category="Basketball">
-               Basketball
-             </button>
-             </div>
-
 
           <li class="nav-item">
-            <a class="nav-link" href="">Zapatos</a>
+            <a class="nav-link" href="#ropa">
+              Ropa
+            </a>
+          </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#zapatos">
+              Zapatos
+            </a>
           </li>
 
         </ul>
@@ -89,23 +61,91 @@
     <div id="subtitulo">Comprar</div>
   </div>
 
-  <div>
-    <h1 class="subtemas" id="deportes">Encuentra tu deporte</h1>
+  <section id="deportes"></section>
+    <h1 class="subtemas">Encuentra tu deporte</h1>
     <div class="grid-container">
-      <div class="grid-item">1</div>
-      <div class="grid-item">2</div>
-      <div class="grid-item">3</div>
-      <div class="grid-item">4</div>
+      <div class="grid-item">
+        <header>
+          <h2>Fútbol</h2>
+        </header>
+        <img id="ImgDep" src="pic/phillipkofler-soccer-606235_1920.jpg" alt="Fútbol">
+      </div>
+
+      <div class="grid-item">
+        <header>
+          <h2>Tenis</h2>
+        </header>
+        <img id="ImgDep" src="pic/planet_fox-tennis-ball-7138046_1920.jpg" alt="Tenis">
+      </div>
+
+      <div class="grid-item">
+        <header>
+          <h2>Basketball</h2>
+        </header>
+        <img id="ImgDep" src="pic/patricaaaaaaa-sports-5245098_1920.jpg" alt="Basketball">
+      </div>
     </div>
-  </div>
+  </section>
+
+<section id="zapatos">
+            <h2 class="section-title">Zapatos</h2>
+            <div class="productos-grid">
+
+             <div class="zapatos-card">
+               <img src="pic/stux-running-shoe-371625_1920.jpg" alt="Zapato running azul">
+               <h3>Runner XPro </h3>
+               <p class="categoria">Running</p>
+               <p class="precio">$689.00 MXN</p>
+             </div>
+
+             <div class="zapatos-card">
+               <img src="pic/wichilopochtli-tennis-3558261_1920.jpg" alt="Zapato Casual">
+               <h3>Urban Classic</h3>
+               <p class="categoria">Casual</p>
+               <p class="precio">$799.00 MXN</p>
+             </div>
+
+             <div class="zapatos-card">
+               <img src="pic/stux-running-shoe-371624_1920.jpg" alt="Zapato running rosa">
+               <h3>Runner XPro II</h3>
+               <p class="categoria">Running</p>
+               <p class="precio">$960.00 MXN</p>
+             </div>
+
+             <div class="zapatos-card">
+               <img src="pic/stevepb-shoes-584850_1920.jpg" alt="Zapato Training café">
+               <h3>Flex Trainer</h3>
+               <p class="categoria">Training</p>
+               <p class="precio">$750.000 MXN</p>
+             </div>
+
+             <div class="zapatos-card">
+               <img src="pic/olpi-shoes-832875_1920.jpg" alt="Zapato Casual">
+               <h3>Urban Soft</h3>
+               <p class="categoria">Casual</p>
+               <p class="precio">$830.00 MXN</p>
+             </div>
+
+             <div class="zapatos-card">
+               <img src="pic/huyhoang1009-lebron-5048790_1920.jpg" alt="Zapato Basketball Negro">
+               <h3>Air Jumper</h3>
+               <p class="categoria">Basketball</p>
+              <p class="precio">$2,500.00 MXN</p>
+             </div>
+
+             </div>
+           </section>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
+
 <div class="container text-center">
 
   <div class="row g-4">
 
+  <section id="ropa">
+    <h2 class="section-title">Ropa</h2>
     <div class="col-6 col-md-3">
       <div class="card h-100">
 
@@ -174,8 +214,8 @@
           </div>
         </div>
       </div>
+   </section>
 
-      <button class="btn btn-dark mt-4">Mostrar más</button>
     </div>
 
     <footer class="footer text-white" style="background-color: black;">
