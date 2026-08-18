@@ -6,7 +6,7 @@ let productoSeleccionado = null;
 // ==========================
 
 function mostrarProducto(id) {
-    
+
     const producto = productos.find(p => p.id === id);
 
     if (!producto) {
