@@ -103,7 +103,7 @@ HEAD
 }
 
 .navbar .nav-link:hover {
-  color: #760400; /* un gris clarito al pasar el mouse, opcional */
+  color: #760400; 
 }
 
 #logo {
@@ -157,9 +157,29 @@ HEAD
 }
 
 .grid-item {
-  background-color: #E6E6DC;
   padding: 20px;
+  position: relative; 
 }
+
+.item-text {
+  position: absolute;
+  bottom: 50px;
+  left: 25%;
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Archivo", sans-serif;
+  text-shadow: 1px 1px 3px #000
+}
+
+.grid-item img {
+  max-width: 250px;
+  height: 380px; 
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
 
 .subtemas {
     text-align: center;
