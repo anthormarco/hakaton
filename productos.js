@@ -40,7 +40,7 @@ const productos = [
             "Tela transpirable"
         ]
     },
-      {
+    {
         id: 3,
 
         nombre: "Playera Gear Sport Negra",
