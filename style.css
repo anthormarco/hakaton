@@ -186,3 +186,32 @@ HEAD
   text-transform: uppercase;
 
 }
+
+
+.contenedor-acciones {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;          
+    width: 100%;       
+    margin-top: 12px;  
+}
+
+
+.btn-carrito:hover {
+    background-color: #32d621;
+}
+
+/* Botón "Add To Wishlist" -> Negro sólido */
+.btn-dark {
+    background-color: #000000;
+    color: #ffffff !important; /* Fuerza a que el texto sea blanco */
+}
+
+.btn-dark:hover {
+    background-color: #1a1a1a;
+}
+
+/* Efecto sutil al presionar */
+.btn-dark:active {
+    transform: scale(0.97);
+}
